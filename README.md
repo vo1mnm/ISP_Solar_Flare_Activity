@@ -9,9 +9,8 @@ Data Preprocessing:
 Handle Missing Values: Ensure there are no missing values that could negatively impact model performance.
 Convert DateTime: Convert any date-time columns to a proper datetime format for easier manipulation and feature extraction.
 Feature Extraction: Create new features from the datetime column such as year, month, day, hour, and minute.
-Feature Engineering:
 
-Identify and create relevant features that might help in predicting the peak time. This could include the physical parameters of the solar flares and any derived features from the datetime column.
+Feature Engineering: Identify and create relevant features that might help in predicting the peak time. This could include the physical parameters of the solar flares and any derived features from the datetime column.
 Model Preparation:
 
 Split the Data: Divide the dataset into training and testing sets to evaluate the model's performance on unseen data.
