@@ -4,6 +4,7 @@ This repository is for my ISP project.  It is about predicting solar flare activ
 My goal is to predict the peak time of solar flares based on historical data of solar flare characteristics. This involves building a predictive model that can analyze past solar flare data and forecast the time when the next peak flare might occur.
 
 Steps Overview:
+
 Data Preprocessing:
 
 Handle Missing Values: Ensure there are no missing values that could negatively impact model performance.
@@ -21,4 +22,8 @@ Train the Model: Use the training dataset to train the model.
 Evaluate the Model: Test the model on the testing dataset and evaluate its performance using appropriate metrics such as Mean Absolute Error (MAE).
 Prediction:
 
-Use the trained model to predict the peak times of solar flares for future data points.
+Once the model is trained and evaluated, it can be used to predict the peak times for future solar flare data.
+
+By following these steps, I aim to build a robust model capable of forecasting the peak times of solar flares, which is crucial for understanding solar activity and mitigating its effects on Earth-based technologies.
+
+Dataset used: https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi 
