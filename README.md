@@ -27,3 +27,5 @@ Once the model is trained and evaluated, it can be used to predict the peak time
 By following these steps, I aim to build a robust model capable of forecasting the peak times of solar flares, which is crucial for understanding solar activity and mitigating its effects on Earth-based technologies.
 
 Dataset used: https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi 
+
+The most important information in this data set are the: start date, start time, peak, duration, end time, and duration.
