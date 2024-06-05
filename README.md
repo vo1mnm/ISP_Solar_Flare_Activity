@@ -29,3 +29,14 @@ By following these steps, I aim to build a robust model capable of forecasting t
 Dataset used: https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi 
 
 The most important information in this data set are the: start date, start time, peak, duration, end time, and duration.
+
+This information will also be important: 
+
+Timestamp: The exact time of the solar flare observation helps in understanding temporal patterns and trends in solar activity.
+
+Flare Characteristics: The class and magnitude of the flare provide direct information about the energy released during the event.
+
+Physical Parameters: These parameters give detailed information about the magnetic and electric state of the solar atmosphere, which are critical in understanding the dynamics leading to a solar flare.
+Location and Region: The position on the Sun where the flare occurred can indicate regions of higher activity and recurrence of flares.
+
+Quality: Ensures the reliability of the observed data, which is essential for accurate modeling.
