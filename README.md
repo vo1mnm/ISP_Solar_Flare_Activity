@@ -1,42 +1,10 @@
 # ISP_Solar_Flare_Activity
-This repository is for my ISP project.  It is about predicting solar flare activity.
 
-My goal is to predict the peak time of solar flares based on historical data of solar flare characteristics. This involves building a predictive model that can analyze past solar flare data and forecast the time when the next peak flare might occur.
+This repository is for my ISP project.  It is about predicting solar flare activity. My goal is to predict the peak time of solar flares based on historical data of solar flare characteristics. This involves building a predictive model that can analyze past solar flare data and forecast the time when the next peak flare might occur.
 
-Steps Overview:
-
-Data Preprocessing:
-
-Handle Missing Values: Ensure there are no missing values that could negatively impact model performance.
-Convert DateTime: Convert any date-time columns to a proper datetime format for easier manipulation and feature extraction.
-Feature Extraction: Create new features from the datetime column such as year, month, day, hour, and minute.
-
-Feature Engineering: Identify and create relevant features that might help in predicting the peak time. This could include the physical parameters of the solar flares and any derived features from the datetime column.
-Model Preparation:
-
-Split the Data: Divide the dataset into training and testing sets to evaluate the model's performance on unseen data.
-Choose a Model: Select an appropriate machine learning model for time series prediction. Common choices include Random Forest, LSTM (Long Short-Term Memory), ARIMA (AutoRegressive Integrated Moving Average), etc.
-Model Training and Evaluation:
-
-Train the Model: Use the training dataset to train the model.
-Evaluate the Model: Test the model on the testing dataset and evaluate its performance using appropriate metrics such as Mean Absolute Error (MAE).
-Prediction:
-
-Once the model is trained and evaluated, it can be used to predict the peak times for future solar flare data.
-
-By following these steps, I aim to build a robust model capable of forecasting the peak times of solar flares, which is crucial for understanding solar activity and mitigating its effects on Earth-based technologies.
+To undertake this task I will first ensure there are no missing values that could negatively impact model performance. Convert any date-time columns to a proper datetime format for easier manipulation and feature extraction. Create new features from the datetime column such as year, month, day, hour, and minute. Identify and create relevant features that might help in predicting the peak time. This could include the physical parameters of the solar flares and any derived features from the datetime column. Divide the dataset into training and testing sets to evaluate the model's performance on unseen data. Select an appropriate machine learning model for time series prediction. Common choices include Random Forest, LSTM (Long Short-Term Memory), ARIMA (AutoRegressive Integrated Moving Average), etc. Use the training dataset to train the model. Test the model on the testing dataset. Once the model is trained and evaluated, it can be used to predict the peak times for future solar flare data. By following these steps, I aim to build a robust model capable of forecasting the peak times of solar flares, which is crucial for understanding solar activity and mitigating its effects on Earth-based technologies. The most important information in this data set are the: start date, start time, peak, duration, end time, and duration.
 
 Dataset used: https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi 
 
-The most important information in this data set are the: start date, start time, peak, duration, end time, and duration.
 
-This information will also be important: 
 
-Timestamp: The exact time of the solar flare observation helps in understanding temporal patterns and trends in solar activity.
-
-Flare Characteristics: The class and magnitude of the flare provide direct information about the energy released during the event.
-
-Physical Parameters: These parameters give detailed information about the magnetic and electric state of the solar atmosphere, which are critical in understanding the dynamics leading to a solar flare.
-Location and Region: The position on the Sun where the flare occurred can indicate regions of higher activity and recurrence of flares.
-
-Quality: Ensures the reliability of the observed data, which is essential for accurate modeling.
