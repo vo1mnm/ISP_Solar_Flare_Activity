@@ -27,10 +27,11 @@ The biggest obstacle faced when undertaking this analysis was understanding the 
 
 In conclusion, although the findings reported a high level of accuracy, I don’t feel fully confident that this is great method for predicting solar flare activity.  The sun is always active, changing, and requires a high level of monitoring.  If there was more access to real-time and current data it could be used as a great starting point for further analysis, along with some finer tuning of parameters.
 
+JIRA page: https://manningmnf-1713473000224.atlassian.net/jira/software/projects/IS/boards/6/timeline
 
 References
 
-DATASET found at: https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi
+DATASET FOUND AT: https://www.kaggle.com/datasets/khsamaha/solar-flares-rhessi
 
 https://www.analyticsvidhya.com/blog/2024/03/how-can-deep-learning-be-applied-to-predict-solar-flares/#
 
