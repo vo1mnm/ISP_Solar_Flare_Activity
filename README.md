@@ -58,6 +58,8 @@ https://imagesofoldhawaii.com/carrington-event/
 
 https://hesperia.gsfc.nasa.gov/rhessi3/docs/qlook/hsi_flare_list.html
 
+https://en.wikipedia.org/wiki/Reuven_Ramaty_High_Energy_Solar_Spectroscopic_Imager
+
 
 
 
